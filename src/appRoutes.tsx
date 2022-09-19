@@ -5,6 +5,7 @@ import { AreaChartData } from './pages/area-chart/area-chart-data'
 import { BarChartPage } from './pages/bar-chart/bar-chart-page'
 import { MixBarChart } from './pages/bar-chart/mix-bar-chart'
 import { PieChartPage } from './pages/pie-chart/pie-chart-page'
+import { RadarChartPage } from './pages/radar-chart/radar-chart-page'
 
 export const AppRoutes = () => {
 
@@ -16,6 +17,7 @@ export const AppRoutes = () => {
       <Route path="bar-chart" element={<BarChartPage/>}/>
       <Route path="mix-bar-chart" element={<MixBarChart/>}/>
       <Route path="pie-chart" element={<PieChartPage/>}/>
+      <Route path="radar-chart" element={<RadarChartPage/>}/>
     </Routes>
 </>
 )

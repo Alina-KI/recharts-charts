@@ -11,6 +11,7 @@ export const Header = () => {
         <NavLink className={s.link} to='/bar-chart'>Bar chart</NavLink>
         <NavLink className={s.link} to='/mix-bar-chart'>Mix bar chart</NavLink>
         <NavLink className={s.link} to='/pie-chart'>Pie chart</NavLink>
+        <NavLink className={s.link} to='/radar-chart'>Radar chart</NavLink>
       </div>
     </div>
   )
