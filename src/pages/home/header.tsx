@@ -6,10 +6,9 @@ export const Header = () => {
   return (
     <div className={s.header}>
       <div className={s.blockLink}>
-        <NavLink className={s.link} to='/area-charts'>Area charts</NavLink>
+        <NavLink className={s.link} to='/area-chart'>Area chart</NavLink>
         <NavLink className={s.link} to='/area-chart-date'>Area chart with date</NavLink>
-        <NavLink className={s.link} to='/area-charts'>Area charts</NavLink>
-        <NavLink className={s.link} to='/area-charts'>Area charts</NavLink>
+        <NavLink className={s.link} to='/bar-chart'>Bar chart</NavLink>
       </div>
     </div>
   )

@@ -1,13 +1,13 @@
 import React from 'react'
 import { Area, AreaChart, Tooltip, XAxis, YAxis } from 'recharts'
-import { data } from '../../data'
+import { dataAreaChart } from '../../dataAreaChart'
 import { CustomTooltip } from '../custom-tooltip/custom-tooltip'
 
 export const AreaChartPage = () => {
 
   return (
     <AreaChart
-      width={900} height={550} data={data}
+      width={900} height={550} data={dataAreaChart}
       margin={{ top: 0, right: 0, left: 0, bottom: 0 }}>
       <defs>
         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
