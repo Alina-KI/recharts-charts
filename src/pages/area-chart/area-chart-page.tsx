@@ -1,5 +1,5 @@
 import React from 'react'
-import { Area, AreaChart, Tooltip, XAxis, YAxis } from 'recharts'
+import { Area, AreaChart, Legend, Tooltip, XAxis, YAxis } from 'recharts'
 import { dataAreaChart } from '../../dataAreaChart'
 import { CustomTooltip } from '../custom-tooltip/custom-tooltip'
 
@@ -24,6 +24,7 @@ export const AreaChartPage = () => {
       {/*<CartesianGrid strokeDasharray="3 3"/>*/}
       <Tooltip content={<CustomTooltip/>}/>
       <Tooltip cursor={false}/>
+      <Legend verticalAlign="top" height={36}/>
       <Area type="monotone" dataKey="uv" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" activeDot={{ r: 8 }}/>
       <Area type="monotone" dataKey="pv" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)"/>
     </AreaChart>
