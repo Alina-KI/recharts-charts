@@ -7,7 +7,7 @@ export const Header = () => {
     <div className={s.header}>
       <div className={s.blockLink}>
         <NavLink className={s.link} to='/area-charts'>Area charts</NavLink>
-        <NavLink className={s.link} to='/area-charts'>Area charts</NavLink>
+        <NavLink className={s.link} to='/area-chart-date'>Area chart with date</NavLink>
         <NavLink className={s.link} to='/area-charts'>Area charts</NavLink>
         <NavLink className={s.link} to='/area-charts'>Area charts</NavLink>
       </div>
